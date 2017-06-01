@@ -1,0 +1,47 @@
+body {
+  margin-top: 20px;
+}
+
+#error {
+  display: none;
+}
+
+#results {
+  display: none;
+}
+
+#profile_picture{
+  margin-bottom: 10px;
+}
+
+.repos-description {
+  margin-bottom: 10px;
+}
+
+#github-search {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mybadge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #4078C0;
+  border-radius: 10px;
+}
+
+
+
+/*#public-repos {
+  float: right;
+}*/
+
+/*#4078C0*/

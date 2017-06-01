@@ -1,0 +1,25 @@
+{
+  "name": "lookup",
+  "description": "website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories",
+  "main": ".gulpfile.js",
+  "authors": [
+    "Kinuthia Samwel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "project"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}

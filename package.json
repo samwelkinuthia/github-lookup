@@ -1,0 +1,38 @@
+{
+  "name": "lookup",
+  "version": "7.0.0",
+  "description": "website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories",
+  "main": ".gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwelkinuthia/github-lookup.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Kinuthia Samwel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samwelkinuthia/github-lookup.git/issues"
+  },
+  "homepage": "https://github.com/samwelkinuthia/github-lookup.git#readme",
+  "devDependencies": {
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.17.3",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
