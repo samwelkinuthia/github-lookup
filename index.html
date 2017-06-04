@@ -6,36 +6,42 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="build/js/vendor.min.js"></script>
   <script type="text/javascript" src="build/js/app.js"></script>
-  <title>Github Find</title>
+  <title>Github lookup</title>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
+    <div class="row header">
       <h1>GITHUB SEARCH</h1>
       <p>see names and descriptions of people's public repositories.</p>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <form id="github-search" class="form-inline">
-          <div class="form-group">
-            <label for="username">Enter Username:</label>
-            <input type="text" class="form-control" id="username">
-          </div>
-          <button type="submit" class="btn btn-primary">Search</button>
-        </form>
+    <div class="row search">
+      <form id="github-search" class="form-inline">
+        <div class="form-group">
+          <label for="username">Enter Github Username:</label>
+          <input type="text" class="form-control" id="username">
+        </div><br>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+    </div>
+    <div class="row" id="results">
+      <div class="name">
+        <h1><span id="name" class="restart"></span></h1>
       </div>
-      <div class="col-md-8" id="results">
-        <h3><span id="name" class="restart"></span></h3>
-        <span id="button-link" class="restart"></span>
-        <h3>Repositories:<span class="mybadge" id="public-repos" class="restart"></span></h3>
+      <div class="repos">
+        <h3><u>Repositories</u></h3>
         <span id="repos" class="restart"></span>
-        <div class="text-center panel-footer">
-          <span id="show-all-repos" class="restart"></span>
-        </div>
+      </div>
+      <div class="footer">
+        <span id="show-all-repos" class="restart"></span>
       </div>
     </div>
+  </div>
+  <footer>
+    <img src="img/logo.png">
+    <p>&#xA9; 2017</p>
 
+  </footer>
 </body>
 
 </html>

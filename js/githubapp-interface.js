@@ -4,7 +4,7 @@ var displayResults = function(username, githubUrl, publicRepos) {
 
   $("#results").show();
   $("#name").text(username);
-  $("#button-link").append('<a class="btn btn-primary" target="_blank" href=' + githubUrl + ' role="button">Go to Github Profile</a>');
+  $("#button-link").append('<a class="btn btn-primary" target="_blank" href=' + githubUrl + ' role="button">Vie on Github</a>');
   $("#public-repos").text(publicRepos);
 
 };
@@ -12,12 +12,23 @@ var displayResults = function(username, githubUrl, publicRepos) {
 function displayDescription(description) {
 
   if (description === null) {
-    return "none available";
+    return "no description available";
   } else {
     return description;
   }
 
 }
+
+function getRepos(repos, length) {
+  for (var i = 0; i < length; i++) {
+    showReposDetails(repos[i]);
+  }
+}
+
+var displayRepos = function(repos) {
+  $("#repos").append('</dl>');
+
+};
 
 $(document).ready(function() {
 
@@ -35,8 +46,8 @@ $(document).ready(function() {
 
     currentGitHubSearch = new GitHubSearch();
 
-    currentGitHubSearch.lookUpUser(input_username, displayResults, displayErrorMessage);
-    currentGitHubSearch.lookUpRepos(input_username, displayRepos);
+    currentGitHubSearch.userLookup(input_username, displayResults, displayErrorMessage);
+    currentGitHubSearch.reposLookup(input_username, displayRepos);
 
   });
 });

@@ -1,47 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bilbo|Capriola|Monofett|Raleway|Indie+Flower|Devonshire');
 body {
-  margin-top: 20px;
+  font-family: 'Raleway';
+  background-color: #262626;
 }
 
-#error {
-  display: none;
+.header {
+  background-color: black;
+  color: white;
+  padding: 70px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  padding: 40px;
+  background-color: #262626;
+  color: white;
+  font-size: 16px;
+}
+
+.btn-primary {
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  margin: 5px;
+}
+
+#username {
+  margin: 5px;
+  width: 70%;
+}
+
+label {
+  margin: 5px;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
 }
 
 #results {
-  display: none;
-}
-
-#profile_picture{
-  margin-bottom: 10px;
-}
-
-.repos-description {
-  margin-bottom: 10px;
-}
-
-#github-search {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.mybadge {
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  color: #fff;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  background-color: #4078C0;
-  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: white;
 }
 
+#repos a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Indie Flower';
+  font-size: 35px;
+}
 
+#repos a:hover {
+  color: #33bbff;
+}
 
-/*#public-repos {
-  float: right;
-}*/
+#name {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
 
-/*#4078C0*/
+#name:hover {
+  background-color: black;
+  color: white;
+}
+
+.name h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: blue;
+  font-family:
+}
+
+.footer a {
+  color: #33bbff;
+  font-size: 20px;
+  font-family: 'Capriola';
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  position: relative;
+  font-family: 'Devonshire';
+}
+
+footer img {
+  height: 100px;
+  width: 120px;
+}
