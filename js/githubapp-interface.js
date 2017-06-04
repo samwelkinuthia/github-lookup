@@ -4,7 +4,7 @@ var displayResults = function(username, githubUrl, publicRepos) {
 
   $("#results").show();
   $("#name").text(username);
-  $("#button-link").append('<a class="btn btn-primary" target="_blank" href=' + githubUrl + ' role="button">Vie on Github</a>');
+  $("#button-link").append('<a class="btn btn-primary" target="_blank" href=' + githubUrl + ' role="button">View on Github</a>');
   $("#public-repos").text(publicRepos);
 
 };
@@ -18,18 +18,6 @@ function displayDescription(description) {
   }
 
 }
-
-function getRepos(repos, length) {
-  for (var i = 0; i < length; i++) {
-    showReposDetails(repos[i]);
-  }
-}
-
-var displayRepos = function(repos) {
-  $("#repos").append('</dl>');
-
-};
-
 $(document).ready(function() {
 
   var input_username;
