@@ -21,7 +21,7 @@ function displayDescription(description) {
 $(document).ready(function() {
 
   var input_username;
-  var currentGitHubSearch; 
+  var currentGitHubSearch;
 
   $("#github-search").submit(function(event) {
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
 
     input_username = $("#username").val();
 
-    currentGitHubSearch = new GitHubSearch();
+    currentGitHubSearch = new GitHubSearch(); 
 
 
     currentGitHubSearch.userLookup(input_username, displayResults, displayErrorMessage);
