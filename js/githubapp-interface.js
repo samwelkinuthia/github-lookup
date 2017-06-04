@@ -34,6 +34,7 @@ $(document).ready(function() {
 
     currentGitHubSearch = new GitHubSearch();
 
+
     currentGitHubSearch.userLookup(input_username, displayResults, displayErrorMessage);
     currentGitHubSearch.reposLookup(input_username, displayRepos);
 
