@@ -15,13 +15,13 @@ function displayDescription(description) {
     return "no description available";
   } else {
     return description;
-  } 
+  }
 
 }
 $(document).ready(function() {
 
   var input_username;
-  var currentGitHubSearch;
+  var currentGitHubSearch; 
 
   $("#github-search").submit(function(event) {
 
