@@ -15,7 +15,7 @@ function displayDescription(description) {
     return "no description available";
   } else {
     return description;
-  }
+  } 
 
 }
 $(document).ready(function() {
