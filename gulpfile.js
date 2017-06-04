@@ -18,7 +18,7 @@ var lib = require('bower-files')({
       ]
     }
   }
-});
+});    
 
 var buildProduction = utilities.env.production;
 
