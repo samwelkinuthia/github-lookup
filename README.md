@@ -14,11 +14,12 @@ This repository contains the source code for a github user search engine to sear
 
 ## How To Install
 
-> navigate to the cloned directory.
- 1. clone this repository e.g _git clone repo-link._
- 2. run _npm Install._
- 3. run _bower Install._
- 4. run _gulp serve._
+>
+ 1. From the terminal, clone this repository e.g _git clone repo-link._
+ 2. Navigate into the cloned directory.
+ 3. run _npm Install._
+ 4. run _bower Install._
+ 5. run _gulp serve._
 
 ## Using Meal Tracker
 
