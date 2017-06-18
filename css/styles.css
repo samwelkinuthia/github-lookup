@@ -1,5 +1,86 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Pangolin|Spectral|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Lato|Pangolin|Patrick+Hand+SC|Spectral|Titillium+Web');
+body {
+  font-family: 'Patrick Hand', cursive;
+  overflow-x: hidden;
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('http://incurs.us/sites/default/files/2016-07/github-wallpaper-1.png')no-repeat center center fixed;
+  color: white;
+}
+
+
 /*font-family: 'Spectral', serif;
 font-family: 'Pangolin', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Titillium Web', sans-serif;*/
+
+h1 {
+  font-size: 50px;
+}
+
+.main {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 70px;
+  border-bottom: 1px solid white;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('http://incurs.us/sites/default/files/2016-07/github-wallpaper-1.png')no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: contrast(120%);*/
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.form-control {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#guides {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #00e64d;
+}
+a:hover{
+  color:green;
+}
+
+#results {
+  text-align: left;
+  border-left: 2px solid #f2f2f2;
+}
+
+#repos {
+  font-size: 20px;
+  color: white;
+}
+
+#name {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+a footer {
+  text-align: center;
+  color: black;
+}

@@ -17,16 +17,23 @@
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Enter Github Username" id="username">
       </div><br>
-      <button type="submit">Find</button>
+      <button type="submit">Search</button>
     </form>
   </div>
-  <div class="container" id="results">
-    <h1><span id="name" class="restart"></span></h1>
-    <h3><span id="name" class="restart"><u>Repositories</u></h3>
-    <span id="repos" class="restart"></span>
+  <div class="row">
+    <div class="col-md-3" id="guides">
+      <h2><u>How to use</u></h2>
+      <p>Enter a github username into the search bar above.</p>
+      <p>Click the search button to search.</p>
+      <p>Repositories and their Github Links will be displayed!</p>
+      <p>Happy searching!</p>
+    </div>
+    <div class="col-md-9" id="results">
+      <h1><span id="name" class="restart"></span></h1>
+      <span id="repos" class="restart"></span>
+    </div>
   </div>
   <footer>
-    <img src="img/logo.png">
     <p>&#xA9; 2017</p>
   </footer>
 </body>
