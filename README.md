@@ -8,9 +8,9 @@ This repository contains the source code for a github user search engine to sear
 
 ## Technologies Used
 
-1.Angular Javascript for the Logic.
-2.Html for the markup.
-3.CSS for styling.
+1. Angular Javascript for the Logic
+2. Html for the markup
+3. CSS for styling.
 
 ## How To Install
 
