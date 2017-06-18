@@ -26,7 +26,7 @@ Enter the github username and click on the search button. Results will be displa
 
 ![search results](https://github.com/samwelkinuthia/github-lookup/blob/master/Screenshot%20from%202017-06-18%2019-43-11.png?raw=true)
 
-##Known Bugs
+## Known Bugs
 
 none
 
