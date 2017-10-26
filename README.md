@@ -21,7 +21,7 @@ This repository contains the source code for a github user search engine to sear
  4. run _bower Install._
  5. run _gulp serve._
 
-## Using Meal Tracker
+## Using Github Find
 
 On serving you will be greeted by a homepage.
 
