@@ -4,7 +4,7 @@ This repository contains the source code for a github user search engine to sear
 
 # Website link
 
-[Meal-Tracker](https://samwelkinuthia.github.io/github-lookup/)
+[GithubFind](https://samwelkinuthia.github.io/github-lookup/)
 
 ## Technologies Used
 
